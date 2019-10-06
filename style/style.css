@@ -14,7 +14,6 @@ h2 {
 
 #games {
     padding-top: 150px;
-    height: 800px;
 }
 
 nav{
@@ -31,9 +30,20 @@ nav img {
     margin-top: 50px;
 }
 
+.gamecontainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gamecontainer img {
+    margin-top: 50px;
+}
+
 .content {
 
 }
+
 #display {
     display: flex;
     justify-content: space-around;
