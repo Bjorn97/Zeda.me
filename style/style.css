@@ -66,6 +66,28 @@ nav img {
     color: white;
 }
 
+
+#discord {
+    margin-top: 100px;
+}
+
+.discord {
+    display: flex;
+    justify-content: center;
+}
+
+.discordcard {
+    border-radius: 100%;
+    width: 20%;
+    margin-top: 50px;
+}
+
+.discordcard img {
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    border-radius:50%;
+}
 .gamecontainer {
     width: 80%;
     margin: 0 auto;
