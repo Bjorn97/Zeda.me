@@ -66,6 +66,24 @@ nav img {
     margin-top: 50px;
 }
 
+.gameplay {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.gameplay video {
+}
+
+.gameplay .text{
+    border: 3px solid #8CB5CA;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 300px;
+    padding: 20px;
+    color: white;
+}
+
 .infocards {
     margin-top: 100px;
     width: 100%;
