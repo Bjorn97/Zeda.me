@@ -23,6 +23,7 @@ h2 {
 
 h3 {
     font-size: 2.5em!important;
+    color: #fff;
 }
 
 #members {
@@ -173,6 +174,8 @@ nav img {
 }
 
 #display {
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -180,8 +183,8 @@ nav img {
 }
 
 #display img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin-top: 20px;
     margin-bottom: 50px;
 }
@@ -196,16 +199,44 @@ nav img {
     height: 1000px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1400px) {
     .gameplay {
         display: flex;
         flex-direction: column;
     }
     .gameplay video {
         width: 100%;
-        /* height: !important; */
+        height: 200px;
     }
     .gameplay .text {
         width: 100%;
+    }
+    nav ul {
+        display:flex;
+        flex-direction: column;
+    }
+
+    nav ul li a{
+        margin: 0 auto;
+        font-size: 1.5em!important;
+    }
+
+    .about{
+        width: 100%;
+        font-size: 0.8em;
+    }
+    .infocards {
+        margin-top: 10px;
+    }
+    .icard {
+        margin-top: 20px!important;
+        width: 90%!important;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    nav ul li a{
+        font-size: 1em!important;
     }
 }
