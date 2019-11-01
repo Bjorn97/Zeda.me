@@ -1,0 +1,43 @@
+.display {
+    font-family: 'Lato', sans-serif!important;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    background-image: url("../img/elven.jpg");
+    background-size: 100%;
+    background-repeat: space;
+    border-radius: 50px;
+    height: 250px;
+}
+
+.display h1 {
+    font-size: 6em;
+    color: white;
+    text-shadow: 2px 2px gray;
+}
+
+.adventure {
+    font-family: 'Montserrat', sans-serif!important;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #7f8c8d;
+    padding: 2%;
+}
+
+.display .adventure img {
+    width: 50%;
+
+}
+
+.display .adventure p {
+    width: 50%;
+    margin: 0 auto;
+}

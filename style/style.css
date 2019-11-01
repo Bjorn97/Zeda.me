@@ -164,6 +164,8 @@ nav img {
     border-radius: 100%;
     width: 200px;
     margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px; 
 }
 
 .gamecontainer a img {
