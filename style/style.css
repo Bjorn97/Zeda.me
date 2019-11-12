@@ -80,7 +80,7 @@ nav img {
 .about {
     width: 100%;
     height: 400px;
-    background-image: url(../img/image5.png);
+    background-image: url(../img/header.png);
     background-size: cover;
     background-position: center;
 }
@@ -222,16 +222,32 @@ nav img {
 }
 
 @media screen and (max-width: 1300px) {
+
+    #home {
+        margin-top: -50px;
+    }
+
+    #members {
+        padding-top: 200px;
+        padding-bottom: 0;
+    }
+
+    #games {
+        padding-top: 200px;
+        padding-bottom: 0;
+    }
+
     .gameplay {
         display: flex;
         flex-direction: column;
     }
     .gameplay video {
-        width: 100%;
-        height: 200px;
+        width: 90%;
+        margin: 0 auto;
+        height: 350px;
     }
     .gameplay .text {
-        width: 95%;
+        width: 90%;
         margin: 0 auto;
     }
     nav ul {
@@ -253,7 +269,7 @@ nav img {
     }
     .icard {
         margin-top: 20px!important;
-        width: 100%!important;
+        width: 80%!important;
         margin: 0 auto;
     }
     .gamecontainer {
@@ -261,12 +277,45 @@ nav img {
         margin: 0 auto;
     }
     .gamecontainer .gamecard {
-        width: 100px;
-        height: 100px;
+        width: 160px;
+        height: 160px;
     }
     .gamecontainer a img {
-        width:100px;
-        height:100px;
+        width:160px;
+        height:160px;
+    }
+
+    #display img {
+        margin: 0 auto;
+        width: 160px;
+        height: 160px;
+    }
+
+    #display .memberCard {
+        width: 160px;
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    #display .memberCard h3 {
+        font-size: 1em!important;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .infocards {
+        margin-top: 10px;
+    }
+
+    .icard {
+        margin-top: 20px!important;
+        width: 100%!important;
+        margin: 0 auto;
+    }
+
+    .gameplay video {
+        height: 200px;
     }
 
     #display img {
@@ -282,11 +331,21 @@ nav img {
         margin-left: 10px;
         margin-top: 10px;
     }
+
     #display .memberCard h3 {
         font-size: 1em!important;
     }
-}
 
+
+    .gamecontainer .gamecard {
+        width: 100px;
+        height: 100px;
+    }
+    .gamecontainer a img {
+        width:100px;
+        height:100px;
+    }
+}
 @media screen and (max-width: 350px) {
     nav ul li a{
         font-size: 1em!important;
