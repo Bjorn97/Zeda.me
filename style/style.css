@@ -53,6 +53,14 @@ nav a {
     font-size: 2em;
 }
 
+nav a:hover {
+    color: #9B59B6;
+}
+
+nav a:active {
+    color: #9B59B6;
+}
+
 nav .nav-item:last-child > a{
     border: none;
 }
@@ -74,6 +82,7 @@ nav img {
     height: 400px;
     background-image: url(../img/image5.png);
     background-size: cover;
+    background-position: center;
 }
 
 .banner {
@@ -222,7 +231,8 @@ nav img {
         height: 200px;
     }
     .gameplay .text {
-        width: 100%;
+        width: 95%;
+        margin: 0 auto;
     }
     nav ul {
         display:flex;
@@ -243,7 +253,7 @@ nav img {
     }
     .icard {
         margin-top: 20px!important;
-        width: 90%!important;
+        width: 100%!important;
         margin: 0 auto;
     }
     .gamecontainer {
@@ -258,6 +268,7 @@ nav img {
         width:100px;
         height:100px;
     }
+
     #display img {
         margin: 0 auto;
         width: 100px;
