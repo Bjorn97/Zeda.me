@@ -250,6 +250,11 @@ nav img {
         width: 90%;
         margin: 0 auto;
     }
+
+    nav {
+        height: 120px!important;
+    }
+
     nav ul {
         display:flex;
         flex-direction: column;
@@ -257,7 +262,8 @@ nav img {
 
     nav ul li a{
         margin: 0 auto;
-        font-size: 1.2em!important;
+        font-size: 1em!important;
+        padding-top: 4px!important;
     }
 
     .about{
