@@ -222,6 +222,30 @@ nav img {
     height: 1000px;
 }
 
+@media screen and (min-width: 1500px) {
+    .gamecontainer .gamecard {
+        border-radius: 100%;
+        width: 200px;
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .gamecontainer a img {
+        width:200px;
+        height:200px;
+        object-fit:cover;
+        border-radius:50%;
+    }
+
+    #display img {
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+}
+
 @media screen and (max-width: 1300px) {
 
     #home {
