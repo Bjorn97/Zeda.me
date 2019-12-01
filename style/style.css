@@ -90,6 +90,38 @@ nav img {
     margin-top: 50px;
 }
 
+.Events .EventBanner {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
+    background-image: url(../img/halob.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.Events .EventText {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #101C2C;
+}
+
+.Events .EventText h1{
+    margin: 0 auto;
+    text-align: center;
+    text-shadow: 1rem;
+    color: #fff;
+    font-size: 5rem;
+}
+
+.Events .EventText p {
+    margin-top: 1rem;
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+}
+
 .gameplay {
     width: 100%;
     display: flex;
@@ -338,7 +370,22 @@ nav img {
     .infocards {
         margin-top: 10px;
     }
+    .Events .EventBanner {
+        width: 95%;
+        height: 200px;
+    }
+    .Events .EventText {
+        width: 95%;
+    }
 
+    .Events .EventText h1{
+        padding-top: 0.2em;
+        font-size: 2.5em;
+    }
+
+    .Events .EventText p {
+        font-size: 1em;
+    }
     .icard {
         margin-top: 20px!important;
         width: 100%!important;
