@@ -75,6 +75,14 @@
     width: 60%;
 }
 
+.player {
+    padding: 1rem;
+    background-color: darkred;
+    border-radius: 5px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
 @media screen and (max-width: 800px) {
     .title {
         width: 90%;
